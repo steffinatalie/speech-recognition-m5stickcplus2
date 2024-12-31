@@ -1,6 +1,6 @@
 # speech-recognition-m5stickcplus2
-## Python for M5Stack M5StickCPlus2 Board
-Python codes for **speech recognition** and **servo control** using M5StickCPlus2.
+## Micropython for M5Stack M5StickCPlus2 Board
+Micropython codes for **speech recognition** and **servo control** using M5StickCPlus2.
 Implementation is based on [Tinkerdoodle Project](https://tinkerdoodle.cc/user/_/notebooks/Shared/Junfeng/Speech%20Commands%20Model.ipynb) with some modifications
 
 ### Training Speech Model with Tinkerdoodle
