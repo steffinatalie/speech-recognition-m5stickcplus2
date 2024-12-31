@@ -48,6 +48,7 @@ Make sure to load all the files: your own speech model, the servo library if you
 
 ### Other Example
 `main.py` in this repo provides an example of controlling servo with speech commands
+
 `speech_model.py` in this repo is my custom speech model in Bahasa with 3 keywords: "Hai Tangan" or Hi Hand as the wakeword, "Mulai" or Begin in English, and "Berhenti" or Stop in English
 
 [![Demo](https://img.youtube.com/vi/qkBok0jFaOU/0.jpg)](https://youtube.com/shorts/qkBok0jFaOU?feature=share)
