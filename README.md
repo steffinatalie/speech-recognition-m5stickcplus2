@@ -8,7 +8,7 @@ Follow the instruction [here](https://www.tinkerdoodle.cc/user/junfeng/speech-co
 
 ### Flash Firmware
 * Download `firmware.bin` from this repo
-* Load the firmware onto your device using esptool based on [this documentation](https://tinkerdoodle.cc/user/_/notebooks/Shared/Junfeng/Speech%20Commands%20Model.ipynb) (You might need to change the “port” setting according to your PC, COM8 for example for Windows)
+* Load the firmware onto your device using esptool based on [this documentation](https://tinkerdoodle.cc/user/_/notebooks/Shared/Junfeng/Speech%20Commands%20Model.ipynb) (You might need to change the port setting according to your PC, for example "COM8" for Windows or "/dev/ttyUSB0" for Linux)
 
 ### Servo Control Library (optional)
 `servo.py` is a library for controlling servo based on angle, check [this tutorial](https://www.upesy.com/blogs/tutorials/esp32-servo-motor-sg90-on-micropython?srsltid=AfmBOor8BqPs5Y3inoiWtjcSCKzADNxbNTkfzfmg6JtXK7Wn89qu65T1#google_vignette) for more details
@@ -49,4 +49,5 @@ Make sure to load all the files: your own speech model, the servo library if you
 ### Other Example
 `main.py` in this repo provides an example of controlling servo with speech commands
 `speech_model.py` in this repo is my custom speech model in Bahasa with 3 keywords: "Hai Tangan" or Hi Hand as the wakeword, "Mulai" or Begin in English, and "Berhenti" or Stop in English
+
 [![Demo](https://img.youtube.com/vi/qkBok0jFaOU/0.jpg)](https://youtube.com/shorts/qkBok0jFaOU?feature=share)
